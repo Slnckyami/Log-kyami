@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+
+<html lang="tr">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Etkileyici 3D Giriş</title>
+
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tween.js/18.6.4/tween.umd.js"></script>
+
+</head>
+
+<body>
+
+    <canvas id="bg-canvas"></canvas>
+
+    
+
+    <div class="container">
+
+        <div class="logo-container">
+
+            <div class="logo" id="logo-1">
+
+                <div class="bot bot-1"></div>
+
+            </div>
+
+            <div class="logo" id="logo-2">
+
+                <div class="bot bot-2"></div>
+
+            </div>
+
+            <div class="logo" id="logo-3">
+
+                <div class="bot bot-3"></div>
+
+            </div>
+
+        </div>
+
+        
+
+        <div class="login-container">
+
+            <h1>Geleceğe Hoş Geldiniz</h1>
+
+            <form id="https://kyamiii.raflymods.web.id">
+
+                <div class="input-group">
+
+                    <input type="text" id="username" required autocomplete="off">
+
+                    <label for="username">Kullanıcı Adı</label>
+
+                    <div class="input-highlight"></div>
+
+                </div>
+
+                
+
+                <div class="input-group">
+
+                    <input type="password" id="password" required autocomplete="off">
+
+                    <label for="password">Şifre</label>
+
+                    <div class="input-highlight"></div>
+
+                </div>
+
+                
+
+                <button type="submit" class="login-button">
+
+                    <span>Giriş Yap</span>
+
+                    <div class="button-effect"></div>
+
+                </button>
+
+            </form>
+
+            
+
+            <div class="options">
+
+                <a href="#" class="option" id="forgot-password">Şifremi Unuttum</a>
+
+                <a href="#" class="option" id="register-btn">Kayıt Ol</a>
+
+            </div>
+
+            
+
+            <!-- Kayıt Formu (başlangıçta gizli) -->
+
+            <div class="register-container" id="register-form" style="display: none;">
+
+                <h2>Yeni Hesap Oluştur</h2>
+
+                <form id="signup-form">
+
+                    <div class="input-group">
+
+                        <input type="text" id="new-username" required autocomplete="off">
+
+                        <label for="new-username">Kullanıcı Adı</label>
+
+                        <div class="input-highlight"></div>
+
+                    </div>
+
+                    
+
+                    <div class="input-group">
+
+                        <input type="email" id="email" required autocomplete="off">
+
+                        <label for="email">E-posta</label>
+
+                        <div class="input-highlight"></div>
+
+                    </div>
+
+                    
+
+                    <div class="input-group">
+
+                        <input type="password" id="new-password" required autocomplete="off">
+
+                        <label for="new-password">Şifre</label>
+
+                        <div class="input-highlight"></div>
+
+                    </div>
+
+                    
+
+                    <div class="input-group">
+
+                        <input type="password" id="confirm-password" required autocomplete="off">
+
+                        <label for="confirm-password">Şifreyi Tekrarla</label>
+
+                        <div class="input-highlight"></div>
+
+                    </div>
+
+                    
+
+                    <button type="submit" class="login-button register-button">
+
+                        <span>Hesap Oluştur</span>
+
+                        <div class="button-effect"></div>
+
+                    </button>
+
+                </form>
+
+                <div class="back-option">
+
+                    <a href="#" id="back-to-login" class="option">Giriş Sayfasına Dön</a>
+
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    
+
+    <script src="script.js"></script>
+
+</body>
+
+</html>
+            
